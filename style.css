@@ -1,0 +1,12 @@
+#mobile-menu.hidden-menu {
+  display: none;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("fonts/Geist[wght].woff2") format("woff2");
+}
+* {
+  font-family: "Geist", sans-serif;
+  scroll-behavior: smooth;
+}
