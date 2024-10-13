@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body
-    class="bg-gradient-to-tl from-amber-300 from-10% to-zinc-50 to-40% grid lg:grid-cols-12 grid-cols-10 p-[16px] h-auto space-x-4"
+    class="bg-gradient-to-tl from-amber-300 from-10% to-zinc-50 to-40% grid lg:grid-cols-12 grid-cols-10 p-[16px] h-auto"
   >
     <aside
       id="sidebar"
@@ -318,7 +318,9 @@
         <header
           class="row-span-1 items-center bg-white px-6 py-4 rounded-xl shadow-[0px_0px_3px_-3px] flex items-center"
         >
-          <div class="relative w-1/2 flex items-center sm:gap-10 gap-1">
+          <div
+            class="relative sm:w-1/2 w-3/4 flex items-center sm:gap-10 gap-1"
+          >
             <div class="sm:mr-0 mr-5">
               <button
                 id="toggle-btn"
@@ -369,9 +371,9 @@
               </p>
             </div>
           </div>
-          <div class="relative w-1/2 flex justify-end">
+          <div class="relative sm:w-1/2 w-1/4 flex justify-end">
             <div class="flex flex-row gap-10">
-              <button id="notification-btn">
+              <button id="notification-btn" class="sm:block hidden">
                 <svg
                   viewBox="0 0 30 35"
                   class="sm:w-[30px] sm:h-[35px] w-[20px] h-[20px]"
@@ -413,7 +415,7 @@
                   </div>
                 </div>
               </div>
-              <div class="w-px self-stretch bg-zinc-400"></div>
+              <div class="w-px self-stretch bg-zinc-400 sm:block hidden"></div>
               <div class="flex gap-4">
                 <button
                   id="profile-btn"
